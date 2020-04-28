@@ -1,3 +1,7 @@
 export default ({ children }) => {
-  return children
+  return (
+    <main style={{margin-left: auto, margin-right: auto}} >
+      children
+    </main>
+  )
 }
