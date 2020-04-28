@@ -1,0 +1,15 @@
+{
+  "name": "charge-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "charge serve src",
+    "build": "charge build src public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@static/charge": "^1.7.0"
+  }
+}
